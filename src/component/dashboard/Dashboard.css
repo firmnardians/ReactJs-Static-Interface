@@ -1,28 +1,80 @@
-.sloganHome{
-    margin: 30% auto;
-    padding-left: 60px;
+.cardDashboard{
+    background: #2e44ad;
+    height: 100vh;
 }
-.sloganHome h2{
-    font-size: 40px;
-    margin-bottom: 0px;
-    font-weight: bold;
+.detailAccountDashboard{
+    display: block;
 }
-.sloganHome p{
-    font-size: 20px;
-    margin-top: 5px;
+.cardMenu{
+    background: #354caa;
+    height: 100vh;
 }
-.btnLoginHome{
-    padding: 12px 22px;
+.detailUser{
+    display: block;
     text-align: center;
-    width: 80px;
-    background: #4c56db;
-    display: inline-block;
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 18px;
-    border-radius: 4px;
-
 }
-.imgWelcome{
-    width: 100%
+.cardAvatar{
+    display: block;
+    margin-top: 20%;
+}
+.editMenu{
+    padding: 10px 18px;
+    background: #edf0ff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.myPicture{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border: 2px solid #ffffff;
+}
+.cardGraph{
+    margin: 30px;
+}
+.cardSaldo{
+    display: block;
+}
+.cardSaldo h4{
+    color: #ffffff;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.cardName{
+    display: block;
+}
+.cardName h4{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.logoDashboard{
+    background: rgb(31, 144, 87); 
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+}
+.logoDashboard h2{
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+}
+.width10{
+    width: 10%;
+}
+.width20{
+    width: 20%;
+}
+.width30{
+    width: 30%;
+}
+.width80{
+    width: 80%;
+}
+.width70{
+    width: 70%;
 }

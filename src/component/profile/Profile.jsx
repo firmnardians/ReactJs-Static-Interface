@@ -1,11 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react';
 
 class Profile extends Component{
     render(){
         return(
-            <div>
-                <h3>Profile</h3>
-            </div>
+            <Fragment>
+                <div className="cardFlex">
+                    <div className="cardLeft">
+                        
+                    </div>
+                </div>
+            </Fragment>
         )
     }
 }

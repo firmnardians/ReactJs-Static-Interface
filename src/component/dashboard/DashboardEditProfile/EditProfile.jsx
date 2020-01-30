@@ -1,9 +1,7 @@
 import React, { Component, Fragment } from 'react'
-import './Dashboard.css';
-import DashboardGraph from './DashboardGraph/DashboardGraph';
-import DashboardMenu from './DashboardMenu/DashboardMenu';
+import DashboardMenu from '../DashboardMenu/DashboardMenu';
 
-class Dashboard extends Component{
+class EditProfile extends Component{
     render(){
         return(
             <Fragment>
@@ -13,7 +11,7 @@ class Dashboard extends Component{
                             <DashboardMenu/>
                         </div>
                         <div className="cardRight width70">
-                            <DashboardGraph/>
+                            
                         </div>
                     </div>
             </Fragment>
@@ -21,4 +19,4 @@ class Dashboard extends Component{
     }
 }
 
-export default Dashboard;
+export default EditProfile;

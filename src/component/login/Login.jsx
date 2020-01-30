@@ -24,7 +24,7 @@ class Login extends Component{
                                 </div>
 
                                 <div className="cardLoginBtn">
-                                    <Link className="btnLoginHome" to="/profile">Masuk</Link>
+                                    <Link className="btnLoginHome" to="/dashboard">Masuk</Link>
                                 </div>
                             </div>
                         </div>

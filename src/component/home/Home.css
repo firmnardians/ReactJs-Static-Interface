@@ -1,0 +1,28 @@
+.sloganHome{
+    margin: 30% auto;
+    padding-left: 60px;
+}
+.sloganHome h2{
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.sloganHome p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.btnLoginHome{
+    padding: 12px 22px;
+    text-align: center;
+    width: 80px;
+    background: #2e44ad;
+    display: inline-block;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 4px;
+
+}
+.imgWelcome{
+    width: 100%
+}
