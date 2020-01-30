@@ -1,0 +1,42 @@
+.cardLogin{
+    height: 100vh;
+}
+.cardLeft{
+    display: block;
+    width: 50%;
+}
+.cardRight{
+    display: block;
+    width: 50%;
+}
+.cardLoginInput{
+    background:  #fff;
+    margin: 30px 40px;
+    margin: 0;
+    box-shadow: 7px 9px 0px #2f303e, 14px -6px 0px #607D8B;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-bottom: 50px;
+    transform: translate(-50%, -50%);
+}
+.cardLoginInput h3{
+    font-size: 30px;
+    font-weight: normal;
+}
+.formInput{
+    padding-bottom: 20px;
+}
+.formInput p{
+    margin: 0px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input{
+    border: 2px solid #333333;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+}
