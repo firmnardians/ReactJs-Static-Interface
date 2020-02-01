@@ -1,21 +1,32 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component, Fragment } from 'react';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './Dashboard.css';
-import DashboardGraph from './DashboardGraph/DashboardGraph';
-import DashboardMenu from './DashboardMenu/DashboardMenu';
+import DashboardWelcome from './DashboardWelcome/DashboardWelcome';
+import DashboardCustomer from './DashboardCustomer/DashboardCustomer';
+import DashboardProfile from './DashboardProfile/DashboardProfile';
+import DashboardReport from './DashboardReport/DashboardReport';
+
 
 class Dashboard extends Component{
     render(){
         return(
             <Fragment>
-                {/* <div className="cardData"></div> */}
-                    <div className="cardFlex">
-                        <div className="cardLeft width30">
-                            <DashboardMenu/>
-                        </div>
-                        <div className="cardRight width70">
-                            <DashboardGraph/>
-                        </div>
-                    </div>
+                <Router>
+                    <Switch>
+                        <Route exact path="/Dashboard">
+                            <DashboardWelcome/>
+                        </Route>
+                        <Route path="/DashboardReport">
+                            <DashboardReport/>
+                        </Route>
+                        <Route path="/DashboardCustomer">
+                            <DashboardCustomer />
+                        </Route>
+                        <Route path="/DashboardProfile">
+                            <DashboardProfile/>
+                        </Route>
+                    </Switch>      
+                </Router>
             </Fragment>
         )
     }

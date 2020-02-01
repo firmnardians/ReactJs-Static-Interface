@@ -1,9 +1,12 @@
 .cardDashboard{
     background: #2e44ad;
     height: 100vh;
+    position: fixed;
+    width: 230px;
 }
 .detailAccountDashboard{
     display: block;
+    padding: 20px;
 }
 .cardMenu{
     background: #354caa;
@@ -11,57 +14,341 @@
 }
 .detailUser{
     display: block;
-    text-align: center;
 }
 .cardAvatar{
     display: block;
-    margin-top: 20%;
+    margin: 20px;
+}
+.pinkColor a{
+    color: rgb(236, 78, 78);
+}
+.mainLink{
+    margin-top: 20px;
+}
+.cardGraph{
+    box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    padding: 20px;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.cardGraph h4{
+    margin: 0px;
+}
+.cardWelcome{
+    margin: 30px;
+}
+.headerDashboard{
+    margin-bottom: 20px;
+}
+.cardSayHello{
+    padding: 20px 50px;
+    border-radius: 6px;
+    background: #f7e5e9;
+}
+.cardSayHello h2{
+    color: #fc8590;
+    font-size: 29px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.cardSayHello p{
+    color: #333;
+    font-weight: 600;
+    margin: 0px;
+}
+.cardGraph h5{
+    font-size: 21px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: rgb(31, 144, 87);
+}
+.cardGraph h2{
+    margin-top: 0;
+    font-size: 20px!important;
+    margin-bottom: 0px;
+}
+.cardGraph p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.cardReport{
+    margin: 30px;
+}
+.headerReport{
+    margin-bottom: 30px;
+}
+.headerReport h2{
+    margin-bottom: 0px;
+}
+.headerReport p{
+    margin-top: 0px;
+}
+.mainLink h2{
+    color: #ffffff;
+    font-size: 18px;
+}
+.mainLink ul{
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.btnLinkMenu{
+    padding: 12px 18px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    display: block;
+}
+.btnLinkMenu--active {
+    background: #3b50b5;
+    font-weight: 600;
+    transition: background .5s ease-in-out;
+}
+.menuDashboard{
+    color: #ffffff;
+    font-weight: 600;
+    background: #3b50b5;
+    padding: 12px 18px;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
 .editMenu{
-    padding: 10px 18px;
+    padding: 6px 8px;
     background: #edf0ff;
     font-weight: bold;
-    font-size: 18px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 14px;
+    color: #354caa;
+    display: inline-block;
     border-radius: 4px;
+    margin-top: 10px;
 }
 .myPicture{
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
     border-radius: 100px;
     border: 2px solid #ffffff;
 }
-.cardGraph{
-    margin: 30px;
-}
-.cardSaldo{
-    display: block;
-}
-.cardSaldo h4{
+.logoDashboard h4{
     color: #ffffff;
-    margin-top: 5px;
-    font-weight: 400;
-}
-.cardName{
-    display: block;
-}
-.cardName h4{
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
     margin-top: 10px;
     margin-bottom: 5px;
 }
 .logoDashboard{
-    background: rgb(31, 144, 87); 
     font-family: 'Lobster', cursive;
     color: #ffffff;
+}
+
+.detailCustomer{
+    margin: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    padding: 20px;
+    border-radius: 6px;
+}
+.detailCustomer h4{
+    margin-top: 0px;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px!important;
+    line-height: 1;
+    opacity: 4!important;
+    color: #1f9057!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.cardSlick{
+    padding: 20px;
+    border: 1px solid #333333;
+    margin-right: 20px!important;
+    margin-left: 20px!important;
+    width: auto!important;
+    border-radius: 6px;
+    height: 200px;
+}
+.cardTodo ul {
+    padding-bottom: 10px!important;
+}
+.btnVisit{
+    padding: 12px 18px;
+    background: rgb(31, 144, 87); 
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 4px;
+    display: inline-block;
+    float: right;
+    top: 25px;
+    position: relative;
+}
+.cardNotifPackages{
+    background: rgb(86, 160, 123);
+    padding: 20px;
+    border-radius: 6px 6px 0px 0px;
+}
+.cardNotifPackages h2{
+    color: #ffffff;
+    margin: 0px;
+}
+.cardNotifPackages p {
+    margin-bottom: 0px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.btnPrimary{
+    padding: 8px 12px;
+    background: rgb(31, 144, 87); 
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.cardTodo ul{
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0px;
+    font-weight: bold;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.cardTodo li{
+    padding: 10px;
+}
+.inputTodo{
+    padding: 12px 16px;
+    font-size: 14px;
+    border-radius: 0px;
+    border: 2px solid rgb(31, 144, 87);
+    border-radius: 0px;
+}
+.btnTodo{
+    padding: 12px 16px;
+    font-size: 14px;
+    border-radius: 0px 20px 20px 0px;
+    background: rgb(31, 144, 87); 
+    border: 2px solid rgb(31, 144, 87);
+    color: #ffffff;
+    font-weight: 600;
+}
+button{
+    border: none;
+}
+.headerProfile h2{
+    margin: 0px;
+}
+.cardTodo{
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    margin-bottom: 20px;
+    padding: 25px;
+    min-height: 330px;
+    border-radius: 10px;
+}
+.cardTips{
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    margin-bottom: 20px;
+    padding: 25px;
+    min-height: 330px;
+    border-radius: 10px;
+}
+.cardTips h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cardTips p{
+    margin-top: 0px;
+    margin-top: 0px;
+}
+.cardTodo h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cardTodo p{
+    margin-top: 0px;
+    margin-top: 0px;
+}
+.detailCustomer p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.detailCustomer label{
+    padding-right: 10px;
+    font-weight: bold;
+}
+.cardCustomer{
+    padding: 30px;
+    border-radius: 6px;
+}
+.cardCustomer h2{
+    margin-top: 0px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.cardCustomer p{
+    margin-top: 0px;
+    padding-left: 5px;
 }
 .logoDashboard h2{
     margin: 0px;
     text-align: center;
     padding: 20px;
+}
+.cardDetailAccount{
+    text-align: center;
+    padding: 20px;
+}
+.marginRight{
+    margin-right: 20px;
+}
+.DataBussines{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333333;
+}
+.detailBussines{
+    padding-top: 20px;
+    display: block;
+}
+.detailBussines p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.detailBussines h4{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.cardBussines{
+    padding: 20px;
+    padding-top: 40px;
+}
+.cardProfile{
+    margin: 10% 20%;
+    box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    border-radius: 6px;
+}
+.cardProfile h2{
+    margin: 0;
+}
+.cardProfile p{
+    margin-top: 0;
 }
 .width10{
     width: 10%;

@@ -1,13 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import './Login.css';
-import Navbar from '../navbar/Navbar'
 import {Link} from 'react-router-dom'
 
 class Login extends Component{
     render(){
         return(
             <Fragment>
-                <Navbar/>
                     <div className="cardLogin">
                         <div className="cardData">
                             <div className="cardLoginInput">

@@ -1,19 +1,22 @@
 import React, { Fragment } from 'react';
-import Home from './component/home/Home';
 import {Route, Switch} from 'react-router-dom';
+import Home from './component/home/Home';
 import Login from './component/login/Login';
 import Dashboard from './component/dashboard/Dashboard';
-import EditProfile from './component/dashboard/DashboardEditProfile/EditProfile';
-
+import DashboardProfile from './component/dashboard/DashboardProfile/DashboardProfile';
+import DashboardCustomer from './component/dashboard/DashboardCustomer/DashboardCustomer';
+import DashboardReport from './component/dashboard/DashboardReport/DashboardReport';
 
 function App() {
   return (
     <Fragment>
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/login" component={Login}/>
-          <Route exact path="/dashboard" component={Dashboard}/>
-          <Route exact path="/EditProfile" component={EditProfile}/>
+          <Route path="/login" component={Login}/>
+          <Route path="/dashboard" component={Dashboard}/>
+          <Route path="/DashboardProfile" component={DashboardProfile}/>
+          <Route path="/DashboardCustomer" component={DashboardCustomer}/>
+          <Route path="/DashboardReport" component={DashboardReport}/>
         </Switch>
     </Fragment>
   );
